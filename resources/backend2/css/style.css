@@ -1,0 +1,332 @@
+body {
+  background: #F5F5F5;
+  color: #58666e;
+  margin: 0;
+  line-height: 1.7em;
+  font-size: 13px;
+  font-family: 'Roboto',sans-serif;
+  outline: 0;
+}
+
+/*styling input field with underline*/
+input[type="text"],
+select.form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+input[type="text"]:focus,
+select.form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+input[type="number"],
+select.form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+input[type="number"]:focus,
+select.form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+input[type="file"],
+select.form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+input[type="file"]:focus,
+select.form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+/*end input feild styling*/
+
+/* Style the header with a grey background and some padding */
+.header {
+  overflow: hidden;
+  background-color: #36BCF1;
+  padding: 0px 10px;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 6px 36px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Change the background color on mouse-over */
+/*.header a:hover {
+  background-color: #ddd;
+  color: black;
+}*/
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+
+
+/* Fixed sidenav, full height */
+.sidenav {
+  height: 940px;
+  width: 250px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #3D464D;
+  overflow-x: hidden;
+  padding-top: 20px;
+  margin-top: 60px;
+  z-index: 1;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 11px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  color: #ABABAB;
+}
+
+.icon1{
+  position: absolute;
+  display: block;
+  font-size: 19px;
+  border-radius: 3px;
+  text-align: center;
+  width: 24px;
+  height: 24px;
+  padding-top: 1px;
+  color: #ABABAB;
+
+}
+
+.icon2{
+  color: #ABABAB;
+}
+
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #fff;
+  background: #31383E;
+}
+
+/* Main content */
+.main {
+  margin-left: 250px;
+  font-size: 13px;
+  padding: 80px 35px;
+  z-index: 0;
+}
+
+.info{
+  margin-bottom: 10px;
+}
+
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: #23527c;
+  color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #3D464D;
+  padding-left: 0px;
+}
+
+.drop-title {
+  color: #ABABAB;
+  margin-left: 40px;
+}
+
+.drop-item {
+  padding-left: 54px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #E5E5E5;
+  color: #8B8B8B;
+  height: 35px;
+}
+
+.footer p{
+  padding-top: 5px;
+  margin-left: 700px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+
+}
+
+@media screen and (min-width: 400px) and (max-width: 700px) {
+  .header a.logo {
+    display: none;
+  }
+  .sidenav {
+    width: 100%;
+    height: auto;
+    position: absolute;
+  }
+  .sidenav a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .header {
+      overflow: hidden;
+      background-color: #36BCF1;
+      padding: 0px 39px;
+      height: 60px;
+      width: 100%;
+      position: fixed;
+      z-index: 2;
+  }
+
+  .sidenav {
+    width: 100%;
+    height: auto;
+    position: absolute;
+  }
+
+  .sidenav a {
+    text-align: center;
+    float: none;
+  }
+}
+
+ /* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: red;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: green;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+} 

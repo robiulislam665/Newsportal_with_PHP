@@ -1,0 +1,679 @@
+.bg-dark {
+    background-color: #344557!important;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #344557;
+    border-color: #6c757d;
+}
+.mynavbar a{
+	    margin-right: 30px;
+	    color: #fff!important;
+}
+}
+.mynavbar a:hover {
+    color: #577C9F!important;
+}
+.mytext a{
+    color: #007bff;
+    text-decoration: none!important;
+    background-color: transparent;
+}
+
+.navbar-dark 
+.navbar-nav .nav-link:focus, 
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #5D84A9!important;
+}
+/*first-part-news-title*/
+.body-color{
+    background-color: #F3F3F3;
+}
+.first-part-news-content a{
+    text-decoration: none;
+    color: #020202;
+}
+.first-part-news-content a:hover{
+    color: #61AADA!important;
+    background-color: transparent;
+}
+.first-part-news-title p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 14px;
+    font-family: arial;
+    word-wrap: break-word;
+}
+.first-part-news-title a{
+    text-decoration: none;
+    color: #757373;
+}
+.first-part-news-title a h3{
+    text-decoration: none;
+    color: #000;
+}
+.first-part-news-title a h3:hover{
+    color: #61AADA!important;
+    background-color: transparent;
+}
+.first-dateline p{
+    line-height: 0px;
+}
+.first-part-news-title a:hover{
+    color: #61AADA!important;
+    background-color: transparent;
+}
+/*End first-part-news-title*/
+
+/*our picks carousel*/
+#ourPicks{
+    background-color: #618BB2;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+#ourPicks h3{
+    color: #fff;
+}
+.ourPicks-carousel .left i{
+    font-weight: bold;
+    font-size: 35px;
+    padding-right: 157px;
+}
+.ourPicks-carousel .right i{
+    font-weight: bold;
+    font-size: 35px;
+    padding-left: 115px;
+}
+
+/*End our picks carousel*/
+
+/*Entertainment*/
+.topNews-heading a {
+    color: #000;
+    text-decoration: none;
+}
+.topNews-heading a:hover {
+    color: #61AADA!important;
+    background-color: transparent;
+}
+.topNews-image a{
+    color: #282923;
+    margin-bottom: 4px;
+    text-decoration: none!important;
+    background-color: transparent;
+}
+.topNews-image a:hover{
+    color: #61AADA!important;
+    background-color: transparent;
+}
+
+.topNews-article p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 14px;
+    font-family: arial;
+    word-wrap: break-word;
+}
+.topNews-article a {
+    text-decoration: none!important;
+    color: #000;
+}
+.topNews-article a:hover{
+    color: #61AADA!important;
+    background-color: transparent;
+}
+.top-dateline p{
+    line-height: 0px;
+}
+/*End entertainment*/
+
+.mytext p{
+	 margin: 0 !important; 
+}
+
+.right_border {
+   	border-right: 1px solid #989898;
+   	padding-right: 25px;
+}
+
+/*Video*/
+.video {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #232323;
+    border-radius: .3rem;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 0px;
+    padding-bottom: 17px;
+}
+/*End Video*/
+
+form.search input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 94%;
+  background: #f1f1f1;
+}
+
+form.search button {
+ float: left;
+    width: 6%;
+    padding: 10px;
+    background: #344557;
+    color: #FFFFFF;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.search button:hover {
+  color: #5D84A9;
+}
+
+form.search::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.custom_event {
+    position: relative;
+    width: 100%;
+    max-width: 356px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 13px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.custom_event:hover .overlay {
+  opacity: 1;
+}
+
+.btn-color{
+    background-color: #A0C3DA;
+}
+
+
+/*subscribe-daily-brief*/
+#daily-brief {
+    background-color: #344557;/*
+    height: 129px;*/
+}
+
+.inbox{
+  color: #fff;
+}
+.icon-background1 {
+    color: #D98300;
+}
+
+.btn-subscribe{
+    margin-left: 25px;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    font-size: 14px;
+    line-height: 1.428571429;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/*End subscribe-daily-brief*/
+
+
+/*lifestyle-from-faith*/
+.head-top a{
+    color: #282923;
+    text-decoration: none!important;
+    background-color: transparent;
+}
+.head-top a:hover{
+    color: #61AADA!important;
+    background-color: transparent;
+}
+.headline a {
+    color: #757373;
+    text-decoration: none!important;
+    background-color: transparent;
+}
+.headline a h5 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.headline a:hover {
+    color: #61AADA!important;
+    background-color: transparent;
+}
+/*End lifestyle-from-faith*/
+
+/*Comment*/
+.comment-heading a{
+    color: #282923;
+    text-decoration: none!important;
+    background-color: transparent;
+}
+.comment-heading a:hover{
+    color: #61AADA!important;
+    background-color: transparent;
+}
+
+.comment-content a {
+    text-decoration: none;
+    color: #000;
+}
+.comment-content a:hover{
+    color: #61AADA!important;
+    background-color: transparent;
+}
+.comment-line-height p{
+    line-height: 0px;
+}
+.comment-article a{
+    color: #282923;
+    text-decoration: none!important;
+    background-color: transparent;
+}
+.comment-article a:hover{
+    color: #61AADA!important;
+    background-color: transparent;
+}
+/*End Comment*/
+
+/*market place*/
+.market-place{
+    background-color: #232323;
+}
+.market h2{
+    color: #fff;
+}
+/*End market place*/
+
+/*Entertainment*/
+.entertainment-heading a {
+    color: #282923;
+    text-decoration: none;
+}
+.entertainment-heading a:hover {
+    color: #61AADA!important;
+    background-color: transparent;
+}
+.entertainment-image a{
+    color: #282923;
+    margin-bottom: 4px;
+    text-decoration: none!important;
+    background-color: transparent;
+}
+.entertainment-image a:hover{
+    color: #61AADA!important;
+    background-color: transparent;
+}
+
+.entertainment-article a {
+    text-decoration: none!important;
+    color: #282923;
+}
+.entertainment-article a:hover{
+    color: #61AADA!important;
+    background-color: transparent;
+}
+.dateline{
+    margin-top: 0;
+    padding-top: 0;
+}
+/*End entertainment*/
+/*mughshot*/
+.mugh-face-header a{
+    color: #282923;
+    text-decoration: none!important;
+    background-color: transparent;
+
+}
+.mugh-face-header a:hover{
+    color: #61AADA!important;
+    background-color: transparent;
+    
+}
+.equal-column-content a{
+    color: #282923;
+    text-decoration: none!important;
+    background-color: transparent;
+}
+.equal-column-content a:hover{
+    color: #61AADA!important;
+    background-color: transparent;
+}
+.equal-height-column{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flex-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+.equal-column-content{
+    height: 100%;
+}
+/*End mughshot*/
+
+/*Footer CSS*/
+.footer-bg-color{
+    background-color: #293746;
+}
+.footer-content h4{
+    margin-top: 40px;
+    color: #FFFFFF;
+}
+.footer-content button:hover{
+   background-color: #004261; 
+}
+.footer-content h6{
+    margin-top: 40px;
+    color: #618BB2;
+}
+.footer-content p{
+    color: #fff;
+}
+.footer-content ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-content ul li a:hover {
+    color: #61AADA!important;
+    background-color: transparent;
+}
+
+.main-footer-copyright{
+    color: #FFFFFF;
+}
+.main-footer-copyright p a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.main-footer-copyright p a:hover{
+   color: #61AADA!important;
+    background-color: transparent;
+}
+/*End Footer CSS*/
+
+
+
+.container12 {
+  position: relative;
+  max-width: 100%; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+
+.container12 .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+
+.gellary{
+    padding: 20px;
+    margin-bottom: 0rem;
+    background-color: #232323;
+    border-radius: 0px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 11px;
+    padding-bottom: 0px;
+}
+.gellary a{
+    color: #fff;
+    text-decoration: none!important;
+    background-color: transparent;
+}
+.gallery-header a h3:hover{
+    color: #61AADA!important;
+    background-color: transparent;
+}
+.gellary a:hover{
+    color: #61AADA!important;
+    background-color: transparent;
+}
+.content a{
+    color: #fff;
+    text-decoration: none!important;
+    background-color: transparent;
+}
+
+
+/*Most popular/Most commented*/
+
+
+/*Details post*/
+.details-title{
+    border-bottom: 1px solid #989898;
+}
+.details-content a{
+    color: #282923;
+    text-decoration: none!important;
+    background-color: transparent;
+}
+.details-content p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 16px;
+    font-family: arial;
+    word-wrap: break-word;
+}
+.details-content a:hover{
+    color: #61AADA!important;
+    background-color: transparent;
+}
+.next-read img{
+    height: 106px;
+}
+.next-read a h6{
+    color: black;
+    font-size: 15px;
+    font-family: arial;
+    font-weight: bold;
+    line-height: 22px;
+}
+.next-read a p{
+    color: black;
+    font-size: 10px;
+    font-family: arial;
+    font-weight: normal;
+    line-height: 1px;
+    text-decoration: none!important;
+}
+/*End details post*/
+
+/*Details second part*/
+.wrap{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+#details-wrap{
+    margin-top: 400px!important;
+}
+
+.all-image img{
+    height: 213px;
+}
+.details-all-content h3{
+    font-weight: bold;
+
+}
+.details-all-content a{
+    background-color: #618BB2;
+
+}
+.details-all-content a:hover{
+    background-color: #344557;
+
+}
+/*End Details second part*/
+
+/*details our picks*/
+.carousel-content a{
+    color: #fff;
+    text-decoration: none!important;
+}
+
+#most-popular{
+    background-color: #F3F3F3;
+}
+/*details our picks*/
+
+.carousel-indicators-numbers{
+    top: 74px;
+}
+.carousel-indicators-numbers li{
+    background-color: red;
+}
+.carousel-indicators-numbers{
+    top: 260px!important;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+.carousel-inner-content a{
+    text-decoration: none!important;
+     color: #282923;
+}
+.carousel-inner-content a:hover{
+    color: #61AADA!important;
+    background-color: transparent;
+}
+
+
+
+/*header top content*/
+.header-top-content a{
+    text-decoration: none!important;
+}
+/*End header top content*/
+
+/*details top header carousel controller*/
+.custom-details-carousel-next, .custom-details-carousel-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 1%;
+    color: #fff;
+    text-align: center;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+.custom-details-carousel-prev-icon {
+    background-color: black;
+    background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' …3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e);
+}
+.custom-details-carousel-next-icon {
+    background-color: black;
+    background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' …3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e);
+}
+/*End details top header carousel controller*/
+
+/*our picks carousel controller*/
+.custom-ourpicks-carousel-next, .custom-ourpicks-carousel-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 1%;
+    color: #fff;
+    text-align: center;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+.custom-ourpicks-carousel-prev-icon {
+    background-color: black;
+    background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' …3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e);
+}
+.custom-ourpicks-carousel-next-icon {
+    background-color: black;
+    background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' …3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e);
+}
+/*End our picks carousel controller*/
+
+
+/*editor choise*/
+
+#editor{
+    background-color: #344557;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+#editor h3{
+    color: #fff;
+}
+.editor-carousel .left i{
+    font-weight: bold;
+    font-size: 35px;
+    padding-right: 157px;
+}
+.editor-carousel .right i{
+    font-weight: bold;
+    font-size: 35px;
+    padding-left: 115px;
+}
+/*End editor choise*/
